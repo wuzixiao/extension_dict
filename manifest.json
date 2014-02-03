@@ -1,0 +1,12 @@
+{
+  "name": "Translate words",
+  "description": "Translate selection words from dict.cn",
+  "version": "1.0",
+  "permissions": [
+	  "contextMenus",
+	  "tabs"],
+  "background": {
+    "scripts": ["translate.js"]
+  },
+  "manifest_version": 2
+}
