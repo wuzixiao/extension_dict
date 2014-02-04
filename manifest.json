@@ -5,8 +5,11 @@
   "permissions": [
 	  "contextMenus",
 	  "tabs"],
+  "icons":{
+        "16": "icon.jpg",
+   },
   "background": {
     "scripts": ["translate.js"]
   },
   "manifest_version": 2
-}
+}  
