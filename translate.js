@@ -14,7 +14,8 @@ function onClickHandler(info) {
 		var url = "http://www.dict.cn/" + str;
 	}
 	else {
-		var url = "http://translate.google.com/#auto/zh-CN/" + str;
+		
+		var url = "http://translate.google.com/#auto/zh-CN/" + encodeURI(str);
 	}
 
 	chrome.tabs.create({ url: url, active: true });
