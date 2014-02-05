@@ -6,8 +6,8 @@
 	  "contextMenus",
 	  "tabs"],
   "icons":{
-        "16": "icon.jpg",
-   },
+        "16": "icon.png"
+  },
   "background": {
     "scripts": ["translate.js"]
   },
